@@ -1,0 +1,33 @@
+{
+  "name": "two-factor",
+  "version": "0.1.0",
+  "description": "An NPM package made for two factor authentication using NOTP.",
+  "main": "src/two-factor.js",
+  "scripts": {
+    "test": "node src/test/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defsec/two-factor.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "notp",
+    "authenticator",
+    "two",
+    "factor",
+    "authentication",
+    "2fa"
+  ],
+  "author": "FearGannicus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defsec/two-factor/issues"
+  },
+  "homepage": "https://github.com/defsec/two-factor#readme",
+  "dependencies": {
+    "notp": "^2.0.3",
+    "thirty-two": "^1.0.2"
+  }
+}
